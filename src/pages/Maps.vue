@@ -10,7 +10,7 @@ const loader = new Loader(API_KEY);
 export default {
   mounted() {
     loader.load().then(function (google) {
-      var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+      var myLatlng = new google.maps.LatLng(40.7200, 29.4800);
       var mapOptions = {
         zoom: 13,
         center: myLatlng,

@@ -13,8 +13,7 @@
       </a>
 
       <a
-        href="https://www.creative-tim.com/product/vue-material-dashboard"
-        target="_blank"
+        href="."
         class="simple-text logo-normal"
       >
         {{ title }}
@@ -47,7 +46,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Vue MD",
+      default: "Kyma dashboard",
     },
     sidebarBackgroundImage: {
       type: String,
@@ -55,7 +54,7 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/vue-logo.png"),
+      default: require("@/assets/img/alitas_icon_only_white.webp"),
     },
     sidebarItemColor: {
       type: String,
